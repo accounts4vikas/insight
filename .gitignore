@@ -1,0 +1,34 @@
+i*.class
+*.log
+
+# sbt/maven specific
+.cache/
+.history/
+.lib/
+dist/*
+target/
+log/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+#project specific
+project/target/*
+project/project/*
+
+#eclipse specific
+.metadata/*
+**/target/
+**/.classpath
+**/.project
+**/.cache
+**/.settings
+
+**/target/
+**/**/.classpath
+**/**/.project
+**/**/.cache
+
+# Mac
+.DS_Store
